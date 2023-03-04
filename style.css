@@ -302,6 +302,7 @@ form{
         display: flex;
         justify-content: space-around;
         flex-wrap: wrap;
+        gap: 1rem;
     }
     nav {
         display: flex;
