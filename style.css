@@ -251,6 +251,40 @@ ul li a button:hover{
     gap: 5px;
 }
 
+footer{
+    margin-top: 20rem;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 2rem;
+}
+.row-s{
+    display: flex;
+    justify-content: space-around;
+    box-sizing: border-box;
+}
+
+footer a{
+    color: #Fff;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.country-option{
+    position: absolute;
+    outline: 0px;
+    border: 0;
+}
+form{
+    margin-top: 3rem;
+}
+
+.col-four .fa-brands{
+    font-size: 1.3rem;
+}
+
+.col-0 img{
+    width: 4rem;
+}
 
 
 
@@ -258,6 +292,17 @@ ul li a button:hover{
 
 @media screen and (max-width: 768px) {
 
+    footer{
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 25rem;
+    }
+
+    .row-s{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
     nav {
         display: flex;
         justify-content: space-around;
