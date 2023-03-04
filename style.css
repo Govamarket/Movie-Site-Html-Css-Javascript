@@ -62,7 +62,7 @@ ul li {
     list-style: none;
 }
 
- ul li a .fa-solid{
+ ul li a  -solid{
     font-size: 2rem;
     color: #fff;
  }
@@ -172,16 +172,18 @@ ul li a button:hover{
 }
 .fa-sharp{
     align-items: center;
-    text-align: center;
     padding-top: 0.6rem;
     color: #fff;
-    font-size: 1rem;
-    border: 3px solid #fff;
-    width: 3rem;
-    height: 3rem;
+    font-size: 2rem;
+    border: 3px solid #f12f2f;
+    padding: 1rem;
     border-radius: 1rem;
     position: fixed;
    background-attachment: scroll;
+   top: 4;
+}
+.fas{
+    padding: 2rem;   
 }
 
 
