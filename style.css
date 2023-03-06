@@ -314,6 +314,27 @@ form{
         .container{
             margin-right: 4em;
         }
+
+        .fa-sharp{
+            align-items: center;
+            padding-top: 0.6rem;
+            color: #fff;
+            font-size: 2rem;
+            border: 3px solid #f12f2f;
+            padding: 1rem;
+            border-radius: 1rem;
+            position: fixed;
+            background-position: fixed;
+            backface-visibility: visible;background-attachment: fixed;
+           top: 4;
+        }
+
+        nav .logo img{
+            width: 1rem;
+        }
+        .fas{
+            padding: 2rem;
+        }
     footer{
         display: flex;
         flex-wrap: wrap;
