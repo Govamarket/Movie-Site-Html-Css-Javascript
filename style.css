@@ -519,7 +519,7 @@ nav .logo img{
 footer{
 display: flex;
 flex-wrap: wrap;
-margin-top: 25rem;
+margin-top: 28rem;
 }
 
 .row-s{
@@ -533,6 +533,14 @@ margin-right: auto;
 
 .row-s h3{
     font-size: 14px;
+}
+
+.col-two{
+    margin-left: 1rem;
+}
+
+.col-0 p{
+    font-family: monospace;
 }
 
 }
