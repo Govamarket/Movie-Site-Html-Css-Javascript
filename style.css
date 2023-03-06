@@ -189,7 +189,7 @@ ul li a button:hover{
     position: fixed;
     background-position: fixed;
     backface-visibility: visible;background-attachment: fixed;
-   top: 4;
+   top: 10rem;
 }
 .fas{
     padding: 2rem;
@@ -216,7 +216,7 @@ ul li a button:hover{
 
 .main{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     gap: 2rem;
     letter-spacing: 2px;
@@ -225,8 +225,8 @@ ul li a button:hover{
     color: #fff;
     font-family: 'Open Sans', sans-serif;
     margin: 1rem;
-    margin-left: 8.5rem;
-    margin-right: 3rem;
+    margin-left: 11.5rem;
+    margin-right: 4rem;
     padding: 1rem;
     top: 32rem;
     position: absolute;
@@ -497,10 +497,9 @@ nav .logo img{
     margin-right: 4em;
 }
 
-.fa-sharp{
+.fas .fa-sharp{
     display: flex;
     justify-content: center;
-    align-items: center;
     padding-top: 0.6rem;
     color: #fff;
     font-size: 2rem;
@@ -508,10 +507,8 @@ nav .logo img{
     padding: 2rem;
     border-radius: 1rem;
     position: fixed;
-    backface-visibility: visible;
-    background-attachment: fixed;
-   top: 4;
 }
+
 
 footer{
 display: flex;
