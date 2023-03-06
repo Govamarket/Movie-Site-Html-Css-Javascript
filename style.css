@@ -542,5 +542,22 @@ nav .logo img{
         flex-wrap: wrap;
     }
 
+    .main{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        gap: 1rem;
+        letter-spacing: 2px;
+        height: inherit;
+        background-color: #424242;
+        color: #fff;
+        font-family: 'Open Sans', sans-serif;
+        margin: 1rem;
+        top: 55rem;
+        position: absolute;
+        border-radius: 1rem;
+        margin-right: 4rem;
+    }
+
 
 }
