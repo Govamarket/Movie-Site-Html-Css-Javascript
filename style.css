@@ -13,6 +13,8 @@ header{
     -webkit-clip-path: polygon(20% 0%, 80% 0%, 100% 0, 100% 80%, 92% 100%, 8% 100%, 0% 80%, 0 0);
 clip-path: polygon(20% 0%, 80% 0%, 100% 0, 100% 80%, 92% 100%, 8% 100%, 0% 80%, 0 1);
     padding: 1rem;
+    border-bottom-left-radius: 7rem;
+    border-bottom-right-radius: 7rem;
 }
 
 body{
@@ -528,7 +530,7 @@ nav .logo img{
 
 
 /* Big screen media */
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 800px) {
     .nav-links{
         display: none;
         justify-content: flex-start;
