@@ -36,10 +36,10 @@ nav .logo img{
 }
 
 .nav-links{
-    display: flex;
+display: flex;
   justify-content: space-around;
   gap: 1rem;
-  width: 30%;
+  align-items: center;
   margin-right: 10rem;
 }
 .burger {
@@ -265,11 +265,21 @@ footer{
     box-sizing: border-box;
 }
 
+/* Footer  */
+
 footer a{
     color: #Fff;
     text-decoration: none;
     font-size: 13px;
     
+}
+footer h3{
+    display: flex;
+    padding-top: 1rem;
+    align-items: center;
+}
+.col-four{
+    padding-top: 1rem;
 }
 
 .country-option{
@@ -291,6 +301,7 @@ form{
 
 
 
+
 /* The media querys inclunding the small screen and larger screen */
 
 @media screen and (max-width: 768px) {
@@ -309,7 +320,6 @@ form{
         justify-content: space-around;
         flex-wrap: wrap;
         gap: 1rem;
-        align-items: center;
     }
     nav {
         display: flex;
