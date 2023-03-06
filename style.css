@@ -26,11 +26,10 @@ html{
 nav{
     display: flex;
     justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
     width: 100%;
     overflow: hidden;
-    background-attachment: fixed;
-    background-position: fixed;
-    background-repeat: no-repeat;
 }
 nav .logo img{
     width: 5rem;
@@ -38,10 +37,10 @@ nav .logo img{
 
 .nav-links{
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-    gap: 1rem;
-  margin-left: 10rem;
+  justify-content: space-around;
+  gap: 1rem;
+  width: 30%;
+  margin-right: 10rem;
 }
 .burger {
     display: none;
@@ -72,7 +71,10 @@ ul li {
     height: 40px;
 }
 
-ul a{
+    ul a {
+        display: flex;
+        justify-content: space-between;
+        gap: 1rem;
     font-size: 17px;
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
@@ -267,6 +269,7 @@ footer a{
     color: #Fff;
     text-decoration: none;
     font-size: 13px;
+    
 }
 
 .country-option{
@@ -306,6 +309,7 @@ form{
         justify-content: space-around;
         flex-wrap: wrap;
         gap: 1rem;
+        align-items: center;
     }
     nav {
         display: flex;
