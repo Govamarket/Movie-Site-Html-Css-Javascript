@@ -17,6 +17,7 @@ header{
     border-bottom-right-radius: 7rem;
 }
 
+
 body{
     background-color: #303030;
 }
@@ -122,6 +123,35 @@ ul li a button:hover{
     font-size: 17x;
 
 }
+
+
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-menu{
+    display: none;
+    position: absolute;
+    background-color: #aca8a8;
+    color: #fff;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-menu p {
+    color: rgb(248, 243, 243);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    align-items: center;
+  }
+  
+  .dropdown-menu a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-menu {display: block;}
+
 
 .row{
     margin-left: 4rem;
