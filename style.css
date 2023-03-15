@@ -130,6 +130,7 @@ ul li a button:hover {
 
 .sec-nav .fa-solid {
   font-size: 25px;
+  color: #fff;
 }
 
 .sec-nav li a h4 {
@@ -139,19 +140,18 @@ ul li a button:hover {
 }
 
 .dropdown-menu {
-  /* display: block; */
-  justify-content: center;
   background-color: #424242;
   width: 20%;
   background-attachment: fixed;
+  z-index: 3;
   background-size: cover;
   position: absolute;
   transform: translateX(-70%);
   padding-top: 1rem;
   padding-bottom: 1rem;
-  line-height: 2.4rem;
+  line-height: 2rem;
   border-radius: 2rem;
-  height: 34rem;
+  height: 30rem;
 }
 
 .dropdown-menu a p {
@@ -161,7 +161,7 @@ ul li a button:hover {
 }
 
 
-.dropdown-menu a p:hover {
+.dropdown-menu .under-rows a:hover {
   transition: all 0s;
   background-color: #310508;
   width: 100%;
@@ -171,13 +171,30 @@ ul li a button:hover {
 }
 
 .underline{
-  border: 0.3px solid #ccc;
+  border: 0.3px solid #fff;
   width: 100%;
 }
-
+.mode-p p{
+  color: #ccc;
+  margin-left: 1rem;
+}
 .rows-rows{
   display: flex;
+  gap: 7px;
+  margin-left: 1rem;
+  color: #fff;
   
+}
+
+.lan p{
+  color: #fff;
+  margin-left: 1rem;
+}
+.under-rows{
+  display: block;
+  justify-content: center;
+  margin-left: 5rem;
+  line-height: 4rem;
 }
 
 .row {
