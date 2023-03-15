@@ -140,6 +140,7 @@ ul li a button:hover {
 }
 
 .dropdown-menu {
+  visibility: hidden;
   background-color: #424242;
   width: 20%;
   background-attachment: fixed;
@@ -149,7 +150,7 @@ ul li a button:hover {
   transform: translateX(-70%);
   padding-top: 1rem;
   padding-bottom: 1rem;
-  line-height: 2rem;
+  line-height: 2.6rem;
   border-radius: 2rem;
   height: 30rem;
 }
@@ -162,12 +163,33 @@ ul li a button:hover {
 
 
 .dropdown-menu .under-rows a:hover {
+  display: grid;
+  grid-template-columns: auto;
+  place-content: center;
   transition: all 0s;
-  background-color: #310508;
-  width: 100%;
+  background-color: #ccc;
+  width: 15rem;
   border-radius: 10px;
   position: relative;
   font-family: monospace;
+}
+
+.under-rows{
+ display: grid;
+ grid-template-columns: auto;
+ place-content: center;
+}
+
+.under-rows a{
+  text-align: center;
+  line-height: 50px;
+  font-size: 16px;
+  font-weight: 20px;
+  font-family: arial;
+}
+
+.cal{
+  text-align: center;
 }
 
 .underline{
@@ -189,12 +211,6 @@ ul li a button:hover {
 .lan p{
   color: #fff;
   margin-left: 1rem;
-}
-.under-rows{
-  display: block;
-  justify-content: center;
-  margin-left: 5rem;
-  line-height: 4rem;
 }
 
 .row {
