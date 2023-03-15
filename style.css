@@ -138,19 +138,46 @@ ul li a button:hover {
   font-size: 17x;
 }
 
-
-.dropdown-menu{
-  display: block;
+.dropdown-menu {
+  /* display: block; */
   justify-content: center;
-  background-color: red;
-  padding: 1rem;
+  background-color: #424242;
+  width: 20%;
+  background-attachment: fixed;
+  background-size: cover;
   position: absolute;
-  margin-top: 10px
+  transform: translateX(-70%);
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  line-height: 2.4rem;
+  border-radius: 2rem;
+  height: 34rem;
 }
 
-.dropdown-menu a h1:hover{
+.dropdown-menu a p {
+  font-size: 12px;
+  font-family: monospace;
+  border-bottom: solid rgb(167, 160, 160) 2px;
+}
+
+
+.dropdown-menu a p:hover {
   transition: all 0s;
-  background-color: black;
+  background-color: #310508;
+  width: 100%;
+  border-radius: 10px;
+  position: relative;
+  font-family: monospace;
+}
+
+.underline{
+  border: 0.3px solid #ccc;
+  width: 100%;
+}
+
+.rows-rows{
+  display: flex;
+  
 }
 
 .row {
@@ -215,10 +242,8 @@ ul li a button:hover {
   padding: 1rem;
   border-radius: 1rem;
   position: fixed;
-  background-position: fixed;
-  backface-visibility: visible;
   background-attachment: fixed;
-  top: 10rem;
+  top: 18rem;
 }
 .fas {
   padding: 2rem;
@@ -562,8 +587,6 @@ form {
     font-family: monospace;
   }
 }
-
-
 
 /* Big screen media */
 @media screen and (max-width: 800px) {
