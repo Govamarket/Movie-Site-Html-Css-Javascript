@@ -168,7 +168,7 @@ ul li a button:hover {
 }
 
 .dropdown-menu {
-  display: none;
+  /* display: none; */
   background-color: #424242;
   width: 20%;
   background-attachment: fixed;
