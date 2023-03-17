@@ -139,8 +139,36 @@ ul li a button:hover {
   font-size: 17x;
 }
 
+.colp {
+  border: 2px solid #ccc;
+  width: 5rem;
+  margin: 1rem;
+}
+
+.roundup {
+  background-color: red;
+  width: 2rem;
+  height: 1rem;
+}
+
+.roundup:hover {
+  transform: translateX(139%);
+  transition: all 0s;
+  animation: reverse ease-in-out 1s;
+}
+
+@keyframes reverse {
+  0% {
+    transform: translateX(0%);
+  }
+
+  30% {
+    transform: translateX(30%);
+  }
+}
+
 .dropdown-menu {
-  visibility: hidden;
+  display: none;
   background-color: #424242;
   width: 20%;
   background-attachment: fixed;
@@ -155,12 +183,11 @@ ul li a button:hover {
   height: 30rem;
 }
 
-.dropdown-menu a p {
-  font-size: 12px;
+.dropdown-menu p{
+  font-size: 13px;
   font-family: monospace;
   border-bottom: solid rgb(167, 160, 160) 2px;
 }
-
 
 .dropdown-menu .under-rows a:hover {
   display: grid;
@@ -172,43 +199,43 @@ ul li a button:hover {
   border-radius: 10px;
   position: relative;
   font-family: monospace;
+  font-size: 12px;
 }
 
-.under-rows{
- display: grid;
- grid-template-columns: auto;
- place-content: center;
+.under-rows {
+  display: grid;
+  grid-template-columns: auto;
+  place-content: center;
 }
 
-.under-rows a{
+.under-rows a {
   text-align: center;
   line-height: 50px;
-  font-size: 16px;
+  font-size: 13px;
   font-weight: 20px;
   font-family: arial;
 }
 
-.cal{
+.cal {
   text-align: center;
 }
 
-.underline{
+.underline {
   border: 0.3px solid #fff;
   width: 100%;
 }
-.mode-p p{
+.mode-p p {
   color: #ccc;
   margin-left: 1rem;
 }
-.rows-rows{
+.rows-rows {
   display: flex;
   gap: 7px;
   margin-left: 1rem;
   color: #fff;
-  
 }
 
-.lan p{
+.lan p {
   color: #fff;
   margin-left: 1rem;
 }

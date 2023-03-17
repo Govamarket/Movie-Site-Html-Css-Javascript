@@ -19,5 +19,20 @@ const navSlide = () => {
     burger.classList.toggle("toggle");
   });
 };
-  navSlide();      
+  navSlide();  
+  
+  const setIcon = document.querySelector(".fa-solid");
+  const dropdownMenu = document.querySelector(".dropdown-menu");
+  const roundUp = document.querySelector(".roundup")
+
+  setIcon.addEventListener("click", () => {
+    if (!setIcon.value === null) {
+      dropdownMenu.classList.add(".dropdown-menu");
+      dropdownMenu.style.display = "flex";
+    }
+  })
+
+  
+ 
+
   
