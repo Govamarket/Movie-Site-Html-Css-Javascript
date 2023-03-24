@@ -25,14 +25,24 @@ const navSlide = () => {
   const dropdownMenu = document.querySelector(".dropdown-menu");
   const roundUp = document.querySelector(".roundup")
 
-  setIcon.addEventListener("click", () => {
-    if (!setIcon.value === null) {
-      dropdownMenu.classList.add(".dropdown-menu");
+  setIcon.addEventListener("click", (event) => {
+    if (setIcon.value === null) {
+      setIcon.appendChild("dropdown-menu").add
       dropdownMenu.style.display = "flex";
+    }else{
+      dropdownMenu.style.display = "none";
     }
+    
   })
 
-  
+
+
+  // Working on toggle format
  
+  const btn = document.getElementById("btn");
+  btn.addEventListener("click", (event) => {
+    alert("Still working on toggle format funtion kindly exercise patient...");
+  });
+  
 
   

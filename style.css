@@ -417,6 +417,27 @@ form {
   width: 4rem;
 }
 
+#btn{
+  background-color: red;
+  transition: all 0s;
+  animation: infinite 1s ease-in-out infinite;
+  border: 0;
+  padding: 1rem;
+  border-radius: 1rem  ;
+}
+
+@keyframes infinite {
+  from{
+    background-color: red;
+    color: #fff;
+  }
+
+  to{
+    background-color: yellow;
+    color: aqua;
+  }
+}
+
 /* The media querys inclunding the small screen and larger screen */
 
 @media screen and (max-width: 768px) {
