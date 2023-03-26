@@ -30,26 +30,33 @@ const ALparts = () => {
   const header = document.querySelector("header");
   const lightCo = document.querySelector("co");
   const darkCo = document.querySelector("col");
+  const main = document.querySelector(".main");
 
   setIcon.addEventListener("click", (event) => {
-   if(dropdownMenu) {
-    dropdownMenu.style.visibility = "visible";
-   }else{
-    dropdownMenu.style.visibility = "hidden";
-   }
+    if (dropdownMenu) {
+      dropdownMenu.style.visibility = "visible";
+    } else {
+      dropdownMenu.style.visibility = "hidden";
+    }
   });
 
   roundUp.addEventListener("click", (event) => {
     if (roundUp) {
-      body.style.background = "#c5cae9";
-      // body.style.color = "black";
+      body.style.background = "black";
+      header.style.background = "black";
+      header.style.border = "1px solid #ccc";
+      dropdownMenu.style.background = "black";
+      dropdownMenu.style.border = "1px solid #ccc";
+      dropdownMenu.style.color = "red";
     } else {
       body.style.background = "#303030";
     }
   });
 
   btn.addEventListener("click", (event) => {
-    alert("Still working on the javascript funtions, Kindly exercise patiently with us...")
+    alert(
+      "Still working on the javascript funtions, Kindly exercise patiently with us..."
+    );
   });
 };
 

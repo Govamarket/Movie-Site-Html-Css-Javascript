@@ -19,7 +19,7 @@ header {
     81% 100%,
     20% 100%,
     0 98%,
-    0% 20%
+    0% 20% 
   );
   clip-path: polygon(
     0 0,
@@ -426,7 +426,10 @@ form {
   animation: infinite 1s ease-in-out infinite;
   border: 0;
   padding: 1rem;
-  border-radius: 1rem  ;
+  border-radius: 1rem;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+  
 }
 
 @keyframes infinite {
@@ -436,7 +439,7 @@ form {
   }
 
   to{
-    background-color: yellow;
+    background-color: blue;
     color: aqua;
   }
 }
