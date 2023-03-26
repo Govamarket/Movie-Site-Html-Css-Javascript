@@ -24,7 +24,7 @@ navSlide();
 const ALparts = () => {
   const setIcon = document.querySelector(".fa-solid");
   const dropdownMenu = document.querySelector(".dropdown-menu");
-  const roundUp = false;
+  const roundUp = document.querySelector(".roundup");
   const body = document.querySelector("body");
   const btn = document.getElementById("btn");
   const header = document.querySelector("header");
@@ -42,11 +42,10 @@ const ALparts = () => {
   roundUp.addEventListener("click", (event) => {
     if (roundUp) {
       body.style.background = "#c5cae9";
-      body.style.color = "black";
+      // body.style.color = "black";
     } else {
-      body.style.background = "#fff";
+      body.style.background = "#303030";
     }
-    roundUp = !roundUp;
   });
 
   btn.addEventListener("click", (event) => {

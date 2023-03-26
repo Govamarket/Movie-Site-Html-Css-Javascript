@@ -154,7 +154,7 @@ ul li a button:hover {
   height: 1rem;
 }
 
-.roundup{
+.roundup:hover{
   transform: translateX(64%);
   transition: all 0s;
   animation: reverse ease-in-out 1s;
