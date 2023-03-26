@@ -32,8 +32,11 @@ const ALparts = () => {
   const darkCo = document.querySelector("col");
 
   setIcon.addEventListener("click", (event) => {
+   if(dropdownMenu) {
     dropdownMenu.style.visibility = "visible";
-    return dropdownMenu.style.visibility = "hidden";
+   }else{
+    dropdownMenu.style.visibility = "hidden";
+   }
   });
 
   roundUp.addEventListener("click", (event) => {
@@ -47,8 +50,7 @@ const ALparts = () => {
   });
 
   btn.addEventListener("click", (event) => {
-    let name = prompt("What is your name?");
-    name = alert(name + "you're stupid");
+    alert("Still working on the javascript funtions, Kindly exercise patiently with us...")
   });
 };
 
