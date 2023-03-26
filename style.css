@@ -9,7 +9,8 @@ header {
   background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
-  backdrop-filter: red;
+  font-variant-position: super;
+  backdrop-filter: rgb(135, 127, 127);
   -webkit-clip-path: polygon(
     0 0,
     80% 0%,
@@ -145,14 +146,16 @@ ul li a button:hover {
   margin: 1rem;
 }
 
+/* My roundup - dropdown-menu properties in the dropdown   */
+
 .roundup {
   background-color: red;
   width: 2rem;
   height: 1rem;
 }
 
-.roundup:hover {
-  transform: translateX(139%);
+.roundup{
+  transform: translateX(64%);
   transition: all 0s;
   animation: reverse ease-in-out 1s;
 }
@@ -168,7 +171,7 @@ ul li a button:hover {
 }
 
 .dropdown-menu {
-  /* display: none; */
+  visibility: hidden;
   background-color: #424242;
   width: 20%;
   background-attachment: fixed;

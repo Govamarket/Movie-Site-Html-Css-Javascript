@@ -19,30 +19,46 @@ const navSlide = () => {
     burger.classList.toggle("toggle");
   });
 };
-  navSlide();  
-  
+navSlide();
+
+const ALparts = () => {
   const setIcon = document.querySelector(".fa-solid");
   const dropdownMenu = document.querySelector(".dropdown-menu");
-  const roundUp = document.querySelector(".roundup")
+  const roundUp = false;
+  const body = document.querySelector("body");
+  const btn = document.getElementById("btn");
+  const header = document.querySelector("header");
+  const lightCo = document.querySelector("co");
+  const darkCo = document.querySelector("col");
 
   setIcon.addEventListener("click", (event) => {
-    if (setIcon.value === null) {
-      setIcon.appendChild("dropdown-menu").add
-      dropdownMenu.style.display = "flex";
-    }else{
-      dropdownMenu.style.display = "none";
-    }
-    
-  })
-
-
-
-  // Working on toggle format
- 
-  const btn = document.getElementById("btn");
-  btn.addEventListener("click", (event) => {
-    alert("Still working on toggle format funtion kindly exercise patient...");
+    dropdownMenu.style.visibility = "visible";
+    return dropdownMenu.style.visibility = "hidden";
   });
-  
 
-  
+  roundUp.addEventListener("click", (event) => {
+    if (roundUp) {
+      body.style.background = "#c5cae9";
+      body.style.color = "black";
+    } else {
+      body.style.background = "#fff";
+    }
+    roundUp = !roundUp;
+  });
+
+  btn.addEventListener("click", (event) => {
+    let name = prompt("What is your name?");
+    name = alert(name + "you're stupid");
+  });
+};
+
+ALparts();
+
+// Working on toggle functions
+
+// Now the implementation
+//declare a variable first or create a new instance button to control
+//header.style.background = "#c5cae9";
+// header.style.color = "black";
+// body.style.background = "#c5cae9";
+// dropdownMenu.style.background = "#c5cae9";
